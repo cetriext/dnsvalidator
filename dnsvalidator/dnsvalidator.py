@@ -29,7 +29,8 @@ arguments = parser.parse(sys.argv[1:])
 
 output = OutputHelper(arguments)
 output.print_banner()
-baselines = ["1.1.1.1", "8.8.8.8", "9.9.9.9"]
+#baselines = ["1.1.1.1", "8.8.8.8", "9.9.9.9"]
+baselines = ["127.0.0.1"]
 
 
 positivebaselines = ["bet365.com", "telegram.com"]
